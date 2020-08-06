@@ -24,3 +24,11 @@ header {
 button {
 	height: 100%;
 }
+
+/**
+ * Main
+ *****************************************************************************/
+form {
+	display: flex;
+	flex-flow: column wrap;
+}
