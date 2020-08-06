@@ -1,0 +1,19 @@
+/**
+ * Page structure
+ *****************************************************************************/
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	align-self: flex-end;
+}
