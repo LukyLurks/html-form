@@ -9,8 +9,10 @@
 	<body>
 		<header>
 			<div>
+				<small>
 				Already have an Intuit account?<br>
 				<a href="#">I forgot my User ID or Password</a>
+				</small>
 			</div>
 			<div>
 				<button>Sign In</button>
@@ -22,7 +24,7 @@
 				<h1 id="main-logo"></h1>
 				<h2 id="sub-logos"></h2>
 			</div>
-			<div id="main-form">
+			<div id="form-container">
 				<h3>Create an Intuit account</h3>
 				<h4>
 					One account for everything Intuit, including Mint.<br>
@@ -47,19 +49,20 @@
 					</label>
 
 					<input type="submit" value="Create Account">
-
-					<small>
-						<p>
-						By clicking Create account, you agree to our
-						<a href="#">Terms</a> and have read and acknowledge our
-						<a href="#">Privacy Statement</a>.
-						</p>
-					</small>
 				</form>
 
 				<small>
-					Invisible reCAPTCHA by Google
-					<a href="#">Provacy Policy</a> and <a href="#">Terms of Use</a>.
+					<p>
+					By clicking Create account, you agree to our
+					<a href="#">Terms</a> and have read and acknowledge our
+					<a href="#">Privacy Statement</a>.
+					</p>
+					<div id="captcha-fine-print">
+						<p>
+						Invisible reCAPTCHA by Google
+						<a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+						</p>
+					</div>
 				</small>
 			</div>
 		</main>
