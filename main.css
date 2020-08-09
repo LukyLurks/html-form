@@ -70,6 +70,7 @@ main {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	overflow: visible;
 }
 
 #main-logo {
@@ -82,6 +83,19 @@ main {
 	background-position: bottom left;
 	height: 30px;
 	width: 320px;
+	opacity: 0;
+	animation: slidein 0.8s linear 0.5s 1 normal forwards;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 50%;
+		opacity: 0;
+	}
+	to {
+		margin-left: 0;
+		opacity: 1;
+	}
 }
 
 #form-container,
